@@ -58,6 +58,6 @@ function handleSubmit(event) {
   }
   
   console.log(dataStorage);
-
+  localStorage.removeItem('feedback-form-state');
   form.reset();
 }
